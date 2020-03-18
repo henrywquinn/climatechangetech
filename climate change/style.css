@@ -1,0 +1,115 @@
+
+
+body {
+
+    margin: 0;
+     background-image: url("Images/ice-water-background1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            background-attachment: fixed
+}
+
+html {
+    font-family: 'Spartan', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+
+
+
+
+
+}
+
+
+.topnav {
+    background-color: #272838;
+
+    overflow: hidden;
+    
+
+
+}
+
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 14.46%;
+    text-decoration: none;
+    font-size: 17px;
+  margin-top: 0;
+
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #09344f;
+    color: white;
+}
+
+background-color: #49516F;
+color: white;
+
+.mySlides {
+    display: none;
+}
+
+.w3-auto {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.w3-content {
+    max-width: auto
+}
+
+.w3-auto {
+    max-width: auto
+}
+
+.animate-right {
+    position: relative;
+    animation: animateright 0.2s
+}
+
+@keyframes animateright {
+    from {
+
+        opacity: 0
+    }
+
+    to {
+        right: 0;
+        opacity: 1
+    }
+}
+
+.box {
+
+    width: 100%;
+    height: 500px;
+    margin: 0;
+
+}
+
+.bluebox {
+    width: 100%;
+    height: 500px;
+    background-color: #272838
+}
+
+
+    
+        
+    
+    
+    
+

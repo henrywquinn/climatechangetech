@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ENG">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    
+
+</head>
+
+<body>
+    
+    
+    <img src="Images/header.jpg" style="width: 100%; margin-bottom: 0">
+
+    
+     <div class="topnav" style="position: sticky">
+        <a class="active" href="index.html">Our Planet</a>
+
+        <a href="evidence.html">Evidence</a>
+        <a href="effects.html">Impact</a>
+    </div>
+    <div class="box">
+
+
+
+
+    </div>
+
+    <div class="w3-content w3-display-container">
+        <img class="mySlides animate-right" src="Images/flood-street-slide.png" style="width:100%">
+        <img class="mySlides animate-right" src="Images/dead-trees-slide.png" style="width:100%">
+        <img class="mySlides animate-right" src="Images/climate-activists-slide.png" style="width:100%">
+        <img class="mySlides animate-right" src="Images/ice-water-slide.png" style="width:100%">
+
+
+
+    </div>
+
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+                myIndex = 1
+            }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 5000);
+        }
+    </script>
+
+
+   
+
+    <div class="bluebox">
+
+    </div>
+
+
+
+
+
+
+
+
+
+</body></html>
